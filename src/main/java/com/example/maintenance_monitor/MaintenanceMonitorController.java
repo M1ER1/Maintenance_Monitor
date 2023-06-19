@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MaintenanceMonitorController {
 
-    private String message = "Everything works as expected";
+    private String message = "Everything operates as expected";
 
     @RequestMapping("/api/message")
     public String getmessage() {
