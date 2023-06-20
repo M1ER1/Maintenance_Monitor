@@ -19,4 +19,10 @@ public class MaintenanceMonitorController {
         this.message = m;
         return "ok";
     }
+
+    @RequestMapping("/api/message/reset")
+    public String reset (){
+        this.message = "Everything operates as expected";
+        return "ok";
+    }
 }
